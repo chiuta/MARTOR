@@ -1,0 +1,10 @@
+[package]
+name = "martor-core"
+description = "Forensic web capture"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+keywords = ["web-archive", "warc", "wacz", "osint", "verification"]
