@@ -2,13 +2,23 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · **Português** · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Versão: 0.1.0-alpha.1 · Última atualização: 13.11.2026
+Versão: 0.1.0-alpha.1 · Última atualização: 2026-11-14
 
 🌐 https://martor.chiuta.ro
 
 ## Estado
 
 Esqueleto inicial (pré-alfa): o workspace compila e os testes passam no CI. Cada funcionalidade prevista é uma tarefa aberta em `docs/issues/`.
+
+## Âmbito previsto
+
+- Registos WARC 1.1 de pedido/resposta para uma captura HTTPS, com resumos de conteúdo e de bloco (SHA-256).
+- Empacotamento WACZ 1.1.1: `datapackage.json`, `pages.jsonl` e um índice CDXJ.
+- Assinatura com uma chave Ed25519 local (WACZ-Auth) e carimbo temporal de confiança RFC 3161 de uma TSA configurável.
+- `martor verify FILE.wacz`: verificador offline com códigos de saída claros, apoiado por uma bateria de testes de adulteração.
+- Captura de subrecursos (CSS, imagens, srcset) e, opcionalmente, captura por navegador através do protocolo DevTools.
+
+Nada disto está ainda implementado: cada ponto é uma tarefa aberta em `docs/issues/`.
 
 ## Compilar e testar
 

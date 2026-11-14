@@ -2,13 +2,23 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-Verzió: 0.1.0-alpha.1 · Utolsó frissítés: 13.11.2026
+Verzió: 0.1.0-alpha.1 · Utolsó frissítés: 2026-11-14
 
 🌐 https://martor.chiuta.ro
 
 ## Állapot
 
 Korai váz (pre-alfa): a workspace lefordul, a tesztek a CI-ben lefutnak. Minden tervezett funkció nyitott feladat a `docs/issues/` mappában.
+
+## Tervezett terjedelem
+
+- WARC 1.1 kérés/válasz rekordok HTTPS-rögzítéshez, adatrész- és blokk-kivonatokkal (SHA-256).
+- WACZ 1.1.1 csomagolás: `datapackage.json`, `pages.jsonl` és CDXJ-index.
+- Aláírás helyi Ed25519 kulccsal (WACZ-Auth) és megbízható RFC 3161 időbélyeg beállítható TSA-tól.
+- `martor verify FILE.wacz`: offline ellenőrző egyértelmű kilépési kódokkal, módosításvizsgáló tesztcsomaggal.
+- Alerőforrások (CSS, képek, srcset) rögzítése és opcionálisan böngészős rögzítés a DevTools protokollal.
+
+Ezek közül még semmi sincs megvalósítva: minden pont nyitott feladat a `docs/issues/` mappában.
 
 ## Fordítás és tesztelés
 
